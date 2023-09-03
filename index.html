@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+    <title>GRINVERT ELEVADORES</title>
+</head>
+<body>
+    <div class="wrap">
+    <header>
+        <img src="imagens/logo.png" id="logo" alt="Grinvert Elevadores">
+        <h3>Tel: (021) 3042 5874</h3>
+
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+                <li><a href="modernizacao.htnl">MODERNIZAÇÃO</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </menu>
+
+    </header>
+   
+        <section id="b-v">
+            <h3>BEM VINDO!</h3>
+            <img src="imagens/g1.jpg" alt="">
+            <p>A GRINVERT ELEVADORES, empresa especializada em assistência técnica de todas as marcas de elevadores, esteiras e escadas rolantes, oferece a V. S.ª a melhor tecnologia, aliada a um alto padrão de qualidade em seus serviços, e os mais modernos conceitos em manutenção.</p>
+        </section>
+
+        
+        <section id="n-e">
+            <h3>NOSSA EQUIPE</h3>
+            <img src="imagens/g2.jpg" alt="">
+            <p>Somos a empresa com os profissionais mais bem preparados para atendê-lo. Nossos técnicos foram treinados nos mais conceituados fabricantes do mercado. Seriedade e competência são qualidades sempre presentes na GRINVERT ELEVADORES.</p>
+        </section>
+        
+
+        <section id="svç">
+            <h3>SERVIÇOS</h3>
+                <ul>
+                    <li><img src="imagens/marker.png" alt=""> Atendimento ágil e diferenciado 24h por dia, inclusive sábados, domingos e feriados;</li>
+                    <li><img src="imagens/marker.png" alt=""> Serviço de qualidade e peças originais;</li>
+                    <li><img src="imagens/marker.png" alt=""> As melhores soluções em modernização dos equipamentos;</li>
+                    <li><img src="imagens/marker.png" alt=""> Uma oficina equipada com máquinas e ferramentas apropriadas para executar todo serviço de reparo;</li>
+                    <li><img src="imagens/marker.png" alt=""> Flexibilidade para encontrar soluções financeiras com o intuito de atender nosso cliente;</li>
+                    <li><img src="imagens/marker.png" alt=""> Possuímos frota própria para agilidade no atendimento.</li>
+                </ul>
+                
+        </section>
+    
+
+    
+
+</div>
+
+<footer>
+    <p>GRINVERT ELEVADORES - Todos os Direitos Reservados</p>
+</footer>
+
+<script>
+    function clickMenu() {
+    if (itens.style.display == 'block') {
+         itens.style.display = 'none'
+    }    else {
+             itens.style.display = 'block'
+    }
+ }
+ </script>
+
+</body>
+</html>
